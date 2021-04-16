@@ -1,0 +1,82 @@
+body, html {
+  height: 100%;
+  background-image: url(../src/background.jpg);
+  /* centra e scala lo sfondo */
+  margin: 0;
+  background-position: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* centra e scala il logo */
+img.logo {
+  margin-top: 30px;
+  /* scala */
+  max-width: 25%;
+  height: auto;
+  /* centra */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* centra la div e setta lo sfondo con grigio/trasparenza   */
+.center {
+  margin: auto;
+  width: 60%;
+  /* sfondo trasparente */
+  background: rgba(0, 0, 0, 0.5);
+  /* bordi arrotondati */
+  border-radius: 25px;
+  padding: 10px;
+}
+
+/* formatta il sottotitolo tramite id  */
+.center figcaption {
+  margin-top: 25px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  color: #00DD00;
+}
+
+/*  */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #00DD00;
+  padding: 20px 20px 20px 20px;
+  border-radius: 25px;
+}
+
+.schedaMonopattino {
+  padding: 20px 20px 20px 20px;
+  color: white;
+}
+
+.nomeMonopattino {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* barra dell'energia */
+.energy {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.green {
+  width: 70%;
+  background-color: #00DD00;
+}
+
+.orange {
+  width: 50%;
+  background-color: #ffae00;
+}
+
+.red {
+  width: 25%;
+  background-color: #ff0000;
+}
